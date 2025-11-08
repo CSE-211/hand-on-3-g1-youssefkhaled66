@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>My HTML Activity</title>
+</head>
+<body>
+
+  <h1 id="main-heading" class="heading">My HTML Page Challenge</h1>
+  <p id="goal" class="info">Goal: Combine everything I learned in HTML.</p>
+
+  <h2 id="tasks-heading" class="heading">Tasks</h2>
+  <p class="text">This page includes all HTML basics like:</p>
+  <ul id="task-list" class="list">
+    <li class="list-item">Headings, paragraphs, and lists</li>
+    <li class="list-item">An image with a caption and link</li>
+    <li class="list-item">An embedded video with subtitles</li>
+    <li class="list-item">Audio playback</li>
+    <li class="list-item">Use of <b>id</b> and <b>class</b> attributes</li>
+  </ul>
+
+  <h2 id="photo-heading" class="heading">My photo </h2>
+  <figure id="my-photo-figure" class="media">
+    <a id="photo-link" class="link" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbRaz-fAuYRSOsHhqJ6ehSyTlwGBce7DKoCg3x-W6pEw8uiMib4BV45185HBa1zEeOV4Q&usqp=CAU" target="_blank">
+      <img id="my-photo" class="image" src="photo.jpeg" alt="My Photo" width="300" />
+    </a>
+    <figcaption id="photo-caption" class="caption">
+      This is my bike. Click it to open in full size.
+    </figcaption>
+  </figure>
+
+  <h2 id="video-heading" class="heading">My Video</h2>
+  <video id="my-video" class="media" width="400" controls>
+    <source src="vedio/vedio.mp4" type="video/mp4">
+    <!-- Inline subtitle (works without server) -->
+    <track  src="subtitles.vtt" kind="subtitles" srclang="ar" label="العربية" default />
+      
+  </video>
+
+  <h2 id="audio-heading" class="heading">My Audio</h2>
+  <audio id="my-audio" class="media" controls>
+    <source src="audio/audio.mov" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <p id="about" class="text">
+    This web page is an exercise for HTML. I used <code>id</code> for unique elements 
+    (like <code>main-heading</code>), and <code>class</code> for groups of elements 
+    (like all <code>heading</code> or <code>list-item</code> elements).
+  </p>
+
+  <p id="save-info" class="info">
+    File name: <strong>myhtml_activity.html</strong>
+  </p>
+
+</body>
+</html>
